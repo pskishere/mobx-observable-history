@@ -1,2 +1,2 @@
-export * from "./lib/observable-history"
-export * from "./lib/search-params"
+export * from "./src/observable-history"
+export * from "./src/search-params"

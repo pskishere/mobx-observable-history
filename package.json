@@ -1,10 +1,10 @@
 {
   "name": "@pskishere/mobx-observable-history",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "History.js wrapper with observable location and reactive URLSearchParams",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pskishere/piral-compass-packages"
+    "url": "https://github.com/pskishere/mobx-observable-history"
   },
   "registry": "https://npm.pkg.github.com/pskishere",
   "scripts": {
@@ -23,11 +23,10 @@
     "url-search-params",
     "url-search-params-extended"
   ],
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "index.ts",
+  "types": "index.ts",
   "files": [
-    "lib/*.*(js|d.ts)",
-    "index.d.ts"
+    "/src"
   ],
   "dependencies": {
     "@types/history": "^4.7.3",
